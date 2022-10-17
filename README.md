@@ -1,2 +1,2 @@
 # Bannerlord.PolicyCommands
-Simply mod adding two ingame console commands.
+Simple mod adding two ingame console commands.
