@@ -26,7 +26,7 @@ namespace Bannerlord.PolicyCommands
 
         private static string switchPolicy(List<string> strings, bool active)
         {
-                if (!CampaignCheats.CheckCheatUsage(ref CampaignCheats.ErrorType))
+            if (!CampaignCheats.CheckCheatUsage(ref CampaignCheats.ErrorType))
                 return CampaignCheats.ErrorType;
 
             if (!CampaignCheats.CheckParameters(strings, 2) || CampaignCheats.CheckHelp(strings))
